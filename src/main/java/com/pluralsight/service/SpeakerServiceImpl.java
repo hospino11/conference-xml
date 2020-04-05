@@ -14,6 +14,10 @@ public class SpeakerServiceImpl implements SpeakerService {
 
     private SpeakerRepository speakerRepository;
 
+    public SpeakerServiceImpl() {
+        logger.log(Level.INFO, "SpeakerServiceImpl no args constructor");
+    }
+
     public SpeakerServiceImpl(SpeakerRepository speakerRepository) {
         logger.log(Level.INFO, "SpeakerServiceImpl repository constructor");
         this.speakerRepository = speakerRepository;
