@@ -5,3 +5,4 @@ Spring Fundamentals - Spring application based on XML
 - application context XML
     - bean
     - setter injection
+    - constructor injection
